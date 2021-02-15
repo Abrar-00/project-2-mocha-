@@ -55,3 +55,14 @@ span {
 .nav-link ul li:hover::after {
   width: 100%;
 }
+.button {
+  padding: 10px 20px;
+  border: 2px solid white;
+  background: black;
+  color: aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav-link .button {
+  float: right;
+}
