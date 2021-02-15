@@ -66,3 +66,21 @@ span {
 .nav-link .button {
   float: right;
 }
+.banner-title {
+  margin: 140px 13rem;
+  color: #78290f;
+}
+.banner-title h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  -webkit-text-stroke: rgb(223, 223, 223) 1px;
+  font-family: "Courier New", Courier, monospace;
+}
+h1 span {
+  -webkit-text-stroke: rgb(0, 0, 0) 2px;
+  color: #78290f;
+}
+i {
+  margin-left: 13px;
+  color: black;
+}
