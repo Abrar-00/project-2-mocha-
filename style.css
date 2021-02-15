@@ -84,3 +84,69 @@ i {
   margin-left: 13px;
   color: black;
 }
+i:hover {
+  transform: rotate(30deg);
+}
+
+/*about section*/
+
+.nav-about {
+  height: 100vh;
+  background-image: url(./images/steve-harvey-U4wcrDteZ2Y-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.about-logo {
+  color: white;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  border: solid rgb(0, 0, 0);
+  margin-left: 20px;
+}
+.nav-link {
+  flex: 1;
+}
+.nav-link ul {
+  margin-left: 50px;
+  display: inline;
+}
+.nav-link ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 25px;
+}
+.nav-link ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav-link ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: white;
+  display: block;
+  margin: auto;
+  transition: 0.8s;
+}
+.nav-link ul li:hover::after {
+  width: 100%;
+}
+.about-banner-tittle h1 {
+  text-align: center;
+  color: white;
+  text-decoration-line: underline;
+  text-decoration-color: white;
+  justify-content: center;
+  font-size: 3rem;
+}
+.about-banner-tittle h3 {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  justify-content: center;
+  margin: 50px 50px;
+}
