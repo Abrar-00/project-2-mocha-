@@ -150,3 +150,14 @@ i:hover {
   justify-content: center;
   margin: 50px 50px;
 }
+
+/*conatct section*/
+
+.nav-contact {
+  height: 100vh;
+  background-image: url(./images/nathan-dumlao-vbt-Fp3b5FA-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
