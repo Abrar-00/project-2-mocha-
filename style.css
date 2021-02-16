@@ -135,6 +135,17 @@ i:hover {
 .about-nav-link ul li:hover::after {
   width: 100%;
 }
+.button {
+  padding: 10px 20px;
+  border: 2px solid white;
+  background: black;
+  color: aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+}
+.about-nav-link .button {
+  float: right;
+}
 .about-banner-tittle h1 {
   text-align: center;
   color: white;
@@ -160,4 +171,52 @@ i:hover {
   background-size: cover;
   overflow: hidden;
   position: relative;
+}
+.contact-logo {
+  color: white;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  border: solid rgb(0, 0, 0);
+  margin-left: 20px;
+}
+.contact-nav-link {
+  flex: 1;
+}
+.contact-nav-link ul {
+  margin-left: 50px;
+  display: inline;
+}
+.contact-nav-link ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 25px;
+}
+.contact-nav-link ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.contact-nav-link ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: white;
+  display: block;
+  margin: auto;
+  transition: 0.8s;
+}
+.contact-nav-link ul li:hover::after {
+  width: 100%;
+}
+.button {
+  padding: 10px 20px;
+  border: 2px solid white;
+  background: black;
+  color: aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+}
+.contact-nav-link .button {
+  float: right;
 }
