@@ -256,3 +256,14 @@ i:hover {
   float: right;
   margin-left: 70px;
 }
+
+/*menu section*/
+
+.nav-menu {
+  height: 100vh;
+  background-image: url(./images/cyril-saulnier-mpSMThAU4OY-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
