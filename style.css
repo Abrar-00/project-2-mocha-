@@ -5,7 +5,7 @@
 }
 .nav {
   height: 100vh;
-  background-image: url(./images/mike-kenneally-zlwDJoKTuA8-unsplash.jpg);
+  background-image: url(./images/image\ 2.jpg);
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -92,7 +92,7 @@ i:hover {
 
 .nav-about {
   height: 100vh;
-  background-image: url(./images/steve-harvey-U4wcrDteZ2Y-unsplash.jpg);
+  background-image: url(./images/image\ 6.jpg);
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -166,7 +166,7 @@ i:hover {
 
 .nav-contact {
   height: 100vh;
-  background-image: url(./images/raimond-klavins-bJiLmqLSdAc-unsplash.jpg);
+  background-image: url(./images/image\ 5.jpg);
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -261,7 +261,7 @@ i:hover {
 
 .nav-menu {
   height: 100vh;
-  background-image: url(./images/cyril-saulnier-mpSMThAU4OY-unsplash.jpg);
+  background-image: url(./images/image\ 3.jpg);
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -288,7 +288,7 @@ i:hover {
   padding: 8px 25px;
 }
 .menu-nav-link ul a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 20px;
 }
