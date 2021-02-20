@@ -331,3 +331,66 @@ td {
   text-align: center;
   padding: 10px;
 }
+
+/*---feedback section---*/
+
+.nav-feedback {
+  height: 100vh;
+  background-image: url(./images/ali-yahya-P_iaHlSUaNY-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.nav-bar {
+  display: flex;
+  padding: 35px 100px;
+}
+.feedback-logo {
+  color: #fff;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  border: solid #fff;
+  margin-left: 20px;
+}
+.feedback-nav-link {
+  flex: 1;
+}
+.feedback-nav-link ul {
+  margin-left: 50px;
+  display: inline;
+}
+.feedback-nav-link ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 25px;
+}
+.feedback-nav-link ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.feedback-nav-link ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: white;
+  display: block;
+  margin: auto;
+  transition: 0.8s;
+}
+.feedback-nav-link ul li:hover::after {
+  width: 100%;
+}
+.button {
+  padding: 10px 20px;
+  border: 2px solid white;
+  background: black;
+  color: aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+}
+.feedback-nav-link .button {
+  float: right;
+}
