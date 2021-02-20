@@ -20,7 +20,7 @@
   font-size: 50px;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
-  border: solid black;
+  border: solid white;
   margin-left: 20px;
 }
 span {
@@ -104,7 +104,7 @@ i:hover {
   font-size: 50px;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
-  border: solid rgb(0, 0, 0);
+  border: solid white;
   margin-left: 20px;
 }
 .about-nav-link {
@@ -167,7 +167,7 @@ i:hover {
 
 .nav-contact {
   height: 100vh;
-  background-image: url(./images/jonny-caspari-sWvPvEVygkU-unsplash.jpg);
+  background-image: url(./images/ali-yahya-Qn9DBu5OFDA-unsplash.jpg);
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -178,7 +178,7 @@ i:hover {
   font-size: 50px;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
-  border: solid black;
+  border: solid white;
   margin-left: 20px;
 }
 .contact-nav-link {
