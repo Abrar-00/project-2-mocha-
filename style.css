@@ -5,7 +5,7 @@
 }
 .nav {
   height: 100vh;
-  background-image: url(./images/image\ 2.jpg);
+  background-image: url(./images/tina-guina-obV_LM0KjxY-unsplash.jpg);
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -16,10 +16,11 @@
   padding: 35px 100px;
 }
 .nav-logo {
+  color: #fff;
   font-size: 50px;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
-  border: solid white;
+  border: solid black;
   margin-left: 20px;
 }
 span {
@@ -39,7 +40,7 @@ span {
   padding: 8px 25px;
 }
 .nav-link ul a {
-  color: #78290f;
+  color: #fff;
   text-decoration: none;
   font-size: 20px;
 }
@@ -47,7 +48,7 @@ span {
   content: "";
   width: 0%;
   height: 2px;
-  background: rgb(41, 38, 38);
+  background: #fff;
   display: block;
   margin: auto;
   transition: 0.8s;
@@ -67,11 +68,11 @@ span {
   float: right;
 }
 .banner-title {
-  margin: 140px 13rem;
+  margin: 19rem 4rem;
   color: #78290f;
 }
 .banner-title h1 {
-  font-size: 3rem;
+  font-size: 43px;
   margin-bottom: 30px;
   -webkit-text-stroke: rgb(223, 223, 223) 1px;
   font-family: "Courier New", Courier, monospace;
@@ -166,7 +167,7 @@ i:hover {
 
 .nav-contact {
   height: 100vh;
-  background-image: url(./images/image\ 5.jpg);
+  background-image: url(./images/jonny-caspari-sWvPvEVygkU-unsplash.jpg);
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -224,12 +225,11 @@ i:hover {
   text-align: center;
   font-size: 23px;
   color: white;
-  margin-top: 30px;
-  margin-right: 50rem;
+  margin-right: 40rem;
 }
 .contact-details h3 {
   font-size: 2rem;
-  margin-top: 15px;
+  margin: 20px;
   text-decoration: underline;
 }
 .contact-details p {
@@ -243,18 +243,18 @@ i:hover {
   text-align: center;
   bottom: 0;
   position: absolute;
-  padding-top: 27%;
+  padding: 8px 5rem;
 }
 .social-icon .fab {
   color: #fff;
-  margin: 50px 25px;
+
   display: block;
-  padding: 8px;
+  padding: 13px;
   border: 1px solid #fff;
   border-radius: 50%;
   cursor: pointer;
   float: right;
-  margin-left: 70px;
+  margin: 3rem;
 }
 
 /*menu section*/
@@ -309,24 +309,25 @@ i:hover {
 }
 table {
   width: 50px;
-  margin: 1rem 10rem;
-  width: 50%;
+  margin: 2px 6rem;
+  width: 43%;
   color: #fff;
+  float: right;
 }
-th {
+tr th {
   text-align: center;
+  font-size: large;
 }
 table,
 th,
 td {
   border: 5px solid white;
   border-collapse: collapse;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 th,
 td {
-  padding: 10px;
   text-align: center;
-}
-.item {
-  text-align: left;
+  padding: 10px;
 }
