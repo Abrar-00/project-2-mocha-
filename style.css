@@ -68,7 +68,7 @@ span {
   float: right;
 }
 .banner-title {
-  margin: 19rem 4rem;
+  margin: 19rem 1px;
   color: #78290f;
 }
 .banner-title h1 {
@@ -81,10 +81,7 @@ h1 span {
   -webkit-text-stroke: rgb(0, 0, 0) 2px;
   color: #78290f;
 }
-i {
-  margin-left: 13px;
-  color: black;
-}
+
 i:hover {
   transform: rotate(30deg);
 }
@@ -386,7 +383,7 @@ td {
 .button {
   padding: 10px 20px;
   border: 2px solid white;
-  background: black;
+  background: chocolate;
   color: aliceblue;
   font-weight: bold;
   cursor: pointer;
@@ -396,16 +393,16 @@ td {
 }
 h1 {
   margin-left: 7rem;
-  padding-top: 1rem;
+  padding-top: 14px;
   font-family: "Courier New", Courier, monospace;
   font-size: 40px;
 }
 .card {
-  width: 29%;
+  width: 30%;
   background-image: url(./images/joanna-kosinska-BIYoKb7Lux0-unsplash.jpg);
   background-size: cover;
-  margin: -5px 53rem;
-  height: 75%;
+  margin: -35px 55rem;
+  height: 82%;
   color: white;
   box-shadow: 0 5px 10px rgba(0, 0, 2, 0.6);
   border-radius: 5%;
@@ -414,24 +411,44 @@ h1 {
 }
 
 .card ul li {
-  display: inline-block;
+  display: inline;
   font-size: 20px;
   font-weight: bolder;
-  margin: 4px;
+  margin: 6px;
   margin-left: 30px;
-  margin-top: 4px;
-  padding-top: 10px;
 }
 label {
   font-size: 16px;
   margin-left: 30px;
 }
 input {
-  margin: 7px;
-  margin-top: 5px;
+  margin: 5px;
+  margin-top: 8px;
+  margin-bottom: 25px;
 }
 i {
   margin-right: -4px;
   margin-left: 54px;
   color: rgb(0, 217, 255);
+}
+.zoom {
+  display: list-item;
+  padding-left: 100px;
+  padding-top: 10px;
+  margin-left: 70px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.don {
+  display: inline-block;
+  padding: 12px 30px;
+  margin-left: 9rem;
+  cursor: pointer;
+  background-color: chocolate;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.don:hover {
+  transform: scale(0.98);
 }
