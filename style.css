@@ -307,7 +307,7 @@ i:hover {
 .menu-nav-link .button {
   float: right;
 }
-table {
+.sheet-1 {
   width: 50px;
   margin: 2px 6rem;
   width: 43%;
@@ -318,7 +318,7 @@ tr th {
   text-align: center;
   font-size: large;
 }
-table,
+.sheet-1,
 th,
 td {
   border: 5px solid white;
@@ -393,4 +393,13 @@ td {
 }
 .feedback-nav-link .button {
   float: right;
+}
+.card {
+  width: 30%;
+  margin: 1rem 28rem;
+  height: 65%;
+  color: black;
+  background-color: white;
+  border-radius: 10%;
+  border: 3px solid black;
 }
