@@ -394,12 +394,18 @@ td {
 .feedback-nav-link .button {
   float: right;
 }
+h1 {
+  margin-left: 7rem;
+  padding-top: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+}
 .card {
   width: 29%;
   background-image: url(./images/joanna-kosinska-BIYoKb7Lux0-unsplash.jpg);
   background-size: cover;
-  margin: 45px 53rem;
-  height: 65%;
+  margin: -5px 53rem;
+  height: 75%;
   color: white;
   box-shadow: 0 5px 10px rgba(0, 0, 2, 0.6);
   border-radius: 5%;
