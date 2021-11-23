@@ -452,3 +452,15 @@ i {
 .don:hover {
   transform: scale(0.98);
 }
+
+@media (max-width: 375px) {
+  .nav-logo {
+    border: none;
+    font-size: 2rem;
+    margin-left: -4rem;
+  }
+  .nav-link {
+    text-align: center;
+    display: inline-flexbox;
+  }
+}
